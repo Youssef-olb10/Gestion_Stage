@@ -1,0 +1,62 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Table Styling */
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.students-table th, .students-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.students-table th {
+    background-color: #333;
+    color: white;
+}
+
+/* Color Codes for Statut */
+.open {
+    background-color: #66bb6a; /* Vert pour "open" */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.closed {
+    background-color: #f44336; /* Rouge pour "closed" */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Link to View Details */
+.students-table a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.students-table a:hover {
+    text-decoration: underline;
+}
